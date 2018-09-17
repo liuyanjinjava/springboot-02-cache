@@ -8,6 +8,7 @@ import java.lang.reflect.Method;
 
 @Component
  class FooGenerator implements KeyGenerator {
+    //主键自动生成策略
     @Override
     public Object generate(Object target, Method method, Object... params) {
 
